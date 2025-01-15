@@ -1,1 +1,1 @@
-instructions to use my programs
+instructions to use my program
