@@ -1,0 +1,17 @@
+/*colors*/
+
+/*
+60% of #000000 - primary
+30% of #ffffff - secondary
+10% of #a83bc4 - accent
+*/
+
+:root {
+
+/* var(--primaryColor) !important; */
+--primaryColor: #000000
+/* var(--secondaryColor) !important; */
+--secondaryColor: #000000
+/* var(--primaryColor) !important; */
+--accentColor: #000000
+}
