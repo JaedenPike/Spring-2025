@@ -7,5 +7,8 @@ body {
 
 .blinn-fa-icon {
     font-size: 80px;
-    color: purple;
+    color: #ffffff
+}
+.blinn-fa-container {
+    background-color: var(--secondaryColor) !important; ;
 }
