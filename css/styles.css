@@ -42,4 +42,6 @@ color: white;
     margin-top: 15px;
     border: 10px solid #a83bc4 ;
     border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+
 }
