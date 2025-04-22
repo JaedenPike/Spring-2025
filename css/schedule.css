@@ -22,3 +22,26 @@ margin-bottom: 0;
     width: 100%;
     max-width: 1000px;
 }
+
+.content-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.content table thead tr th {
+    background-color: #631782;
+    color: #ffffff;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px;
+
+}
+
+.contnet-table tbody tr {
+    border-bottom: 1px solid #dddddd ; 
+}
