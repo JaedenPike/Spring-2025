@@ -35,3 +35,11 @@ color: white;
     position: relative;
     margin-top: -5px;
 }
+
+.cropped {
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+    border: 10px solid #a83bc4 ;
+    border-radius: 50%;
+}
