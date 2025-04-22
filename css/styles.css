@@ -32,4 +32,6 @@ color: white;
     height: 280px;
     background-color: blue !important;
     clip-path: polygon(0 0, 100% 0%, 100% 0, 0 34%);
+    position: relative;
+    margin-top: -5px;
 }
