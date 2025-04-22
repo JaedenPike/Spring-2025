@@ -22,7 +22,7 @@ blockquote {
     position: relative;
     color: #a83bc4;
 }
-.blockquote::before {
+blockquote::before {
     display:block;
     padding-left:10px;
     font-size:80px;
@@ -32,3 +32,16 @@ blockquote {
     color: #a83bc4;
     content:"\201c";
 }
+
+blockquote cite {
+    color:#a83bc4;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+
+}
+
+blockquote cite::before {
+    content:"\2014 \2009";
+}
+
