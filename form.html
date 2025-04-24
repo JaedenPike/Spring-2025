@@ -31,6 +31,51 @@
             <label for="first-name">First Name</label>
             <input type="text" id="first-name" name="firstName" />
           </div>
+
+          <!--Last Name-->
+          <div>
+            <label for="Last-name">Last Name</label>
+            <input type="text" id="last-name" name="lastName" />
+          </div>
+          <!--Age - Number -->
+          <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="18" max="120" />
+          </div>
+
+          <!-- Email-->
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+          </div>
+
+          <!-- phone -->
+          <div>
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" placeholder="(###) ###-####" />
+          </div>
+
+          <!-- start date -->
+          <div>
+            <label for="start-date">Start Date</label>
+            <input type="date" name="startDate" required />
+          </div>
+          <!-- Tshirt - Select Field -->
+          <div>
+            <label for="T-shirt">T-Shirt Size</label>
+            <select id="T-Shirt" required>
+              <option value="">T-Shirt Size</option>
+              <option value="XXS">XXS</option>
+              <option value="XS">XS</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+            </select>
+            <input type="text" name="custom" id="Please input a custom size" disabled />
+          </div>
+
           <!-- Submit Button -->
           <div>
             <input type="submit" name="submit" value="Volunteer" />
@@ -55,5 +100,7 @@
     <script src="components/js/header.js"></script>
     <!-- Local JS file with footer -->
     <script src="components/js/footer.js"></script>
+    <!-- local js file for form -->
+    <script src="js/form.js"></script>
   </section>
 </html>
