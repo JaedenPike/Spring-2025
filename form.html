@@ -27,41 +27,41 @@
       <form>
         <div clas="row">
           <!--First Name-->
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <label for="first-name">First Name</label>
             <input type="text" id="first-name" name="firstName" />
           </div>
 
           <!--Last Name-->
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <label for="Last-name">Last Name</label>
             <input type="text" id="last-name" name="lastName" />
           </div>
           <!--Age - Number -->
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <label for="age">Age</label>
             <input type="number" name="age" id="age" min="18" max="120" />
           </div>
 
           <!-- Email-->
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <label for="email">Email</label>
             <input type="email" name="email" />
           </div>
 
           <!-- phone -->
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <label for="phone">Phone</label>
             <input type="text" name="phone" id="phone" placeholder="(###) ###-####" />
           </div>
 
           <!-- start date -->
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <label for="start-date">Start Date</label>
             <input type="date" id="startDate" name="startDate" required />
           </div>
           <!-- Tshirt - Select Field -->
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <label for="T-shirt">T-Shirt Size</label>
             <select id="T-Shirt" required>
               <option value="">T-Shirt Size</option>
@@ -74,17 +74,17 @@
               <option value="XXL">XXL</option>
               <option value="CUSTOM">CUSTOM</option>
             </select>
-            <input type="text" name="custom" id="Please input a custom size" disabled />
+            <input type="text" id="custom" name="custom" placeholder="Please input a custom size" disabled />
 
             <!-- Tshirt color -->
 
-            <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="color">T-shirt Color</label>
               <input type="color" name="color" id="color" />
             </div>
             <!-- backgroundcheck file upload-->
 
-            <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="background-check">Background Check</label>
               <input type="file" name="" id="background-check" accept=".pdf" . />
             </div>
@@ -92,7 +92,7 @@
 
           <!-- participating in radio buttons -->
 
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <strong>Participating In</strong>
 
             <input type="radio" name="Participation" id="fashion-show" value="Fashion show" required />
@@ -106,7 +106,7 @@
           </div>
 
           <!-- Time Of Day Check Boxes-->
-          <div>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <strong> Time of Day</strong><br />
             <input type="checkbox" name="TimeOfDay" id="time-of-day-morning" value="Morning" required />
             <label for="time-of-day-morning">Morning</label>
@@ -119,20 +119,20 @@
           </div>
           <!-- Comments -->
 
-          <div>
-            <label for="about you">Tell Us About Yourself</label>
+          <div class="col-12">
+            <label for="about you">Tell Us About Yourself</label> <br />
             <textarea name="about-you" id="about-you"></textarea>
           </div>
 
           <!-- Terms And Conditions Text box with toggle switch -->
 
-          <div>
+          <div class="col-12">
             <input type="checkbox" name="terms" id="terms-and-conditions" value="Yes" />
             <label for="terms-and-conditions">I Accept The Terms And Conditions</label>
           </div>
 
           <!-- Submit Button -->
-          <div>
+          <div class="col-12">
             <input type="submit" name="submit" value="Volunteer Now" class="submit" />
           </div>
         </div>
