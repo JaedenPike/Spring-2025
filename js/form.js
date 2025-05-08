@@ -15,11 +15,10 @@ console.clear();
 
 
 ////show/hide///////////
-document.getElementById("t-shirt").addEventListener('change', checkTshirt);
+document.getElementById("T-Shirt").addEventListener('change', checkTshirt);
 
 function checkTshirt() {
-  
-  var tShirt = document.getElementById('t-shirt').value;
+  var tShirt = document.getElementById('T-Shirt').value;
   var custom = document.getElementById('custom');
   
   if (tShirt === 'CUSTOM') {   
@@ -33,8 +32,8 @@ function checkTshirt() {
     custom.disabled = true;
     custom.value = '';
   }
-  
 }
+
 ////show/hide///////////
 
 
